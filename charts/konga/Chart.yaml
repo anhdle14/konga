@@ -1,5 +1,14 @@
-apiVersion: v1
 appVersion: "1.0"
 description: A Helm chart for Kubernetes
 name: konga
-version: 1.0.0
+version: 1.0.1
+apiVersion: v2
+type: application
+description: Chart for KongA
+home: https://github.com/anhdle14/konga
+sources:
+  - https://github.com/anhdle14/konga
+maintainers:
+  - name: anhdle14
+    email: anhdle14@icloud.com
+engine: gotpl
